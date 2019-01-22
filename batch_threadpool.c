@@ -36,7 +36,7 @@
 #include <unistd.h>
 #include <assert.h>//add by sunwake
 
-#include "threadpool.h"
+#include "batch_threadpool.h"
 
 typedef enum {
     immediate_shutdown = 1,
